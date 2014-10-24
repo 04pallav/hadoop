@@ -25,7 +25,7 @@ hdfs dfs -put /home/user/q1input/users.dat /input
 
 **run the jar, first argument is input file in hdfs, second output folder in hdfs, third zipcode that you want to search users for
 
-hadoop jar searchzipcode.jar searchzipcode /input/users.dat /output 80302
+hadoop jar searchzipcode.jar SearchZipCode /input/users.dat /output 80302
 
 ** list all the files generated in the output folder
 
